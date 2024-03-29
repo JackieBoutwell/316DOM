@@ -254,3 +254,9 @@ function addComment() {
 
 // EVENT CAPTURING
 // You can also reverse the process of event bubbling, which is called event capturing
+
+// DEFAULT BROSWER ACTIONS.
+// Many elements have default browser actions associated with their events. For instance, clicking on a link initiates navigation to that link, and submitting a form initiates communication with a server. 
+// In many cases, this default behavior runs contrary to what we are trying to accomplish. Luckily, the Event object has a preventDefault() method that can be used to stop the default behavior from occurring.
+// The power of preventDefault cannot be understated, and is limited only by your creativity. Let's explore an example adapted from the MDN documentation on preventDefault that shows how a form input can be restricted by preventing the default "keypress" event action.
+
